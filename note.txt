@@ -1,0 +1,32 @@
+tensorflow 实现人脸识别（facenet）
+https://blog.csdn.net/tmosk/article/details/78087122
+
+pip/anaconda修改镜像源，加快python模块安装速度
+https://blog.csdn.net/leviopku/article/details/80113021
+
+Win10 x64 + CUDA 9.0 + cuDNN v7.1 + TensorFlow GPU 1.7 安装指南
+https://www.cnblogs.com/sorex/p/7615185.html
+
+批处理（.bat）无限循环，定时，固定时间间隔
+https://blog.csdn.net/mighty13/article/details/78110676
+
+Tensorflow 多GPU下，指定使用某一块GPU, 多块, 禁用
+https://blog.csdn.net/noirblack/article/details/70792550
+
+结果需要分析一下，有些差别还是不太对：
+Images:
+0: D:/dty/pystudy/pic/1.jpg
+1: D:/dty/pystudy/pic/2.jpg
+2: D:/dty/pystudy/pic/3.jpg
+3: D:/dty/pystudy/pic/4.jpg
+4: D:/dty/pystudy/pic/5.jpg
+5: D:/dty/pystudy/pic/6.jpg
+
+Distance matrix
+        0         1         2         3         4         5
+0    0.0000    0.1957    1.1231    0.9255    0.5039    1.0856
+1    0.1957    0.0000    1.1500    0.9408    0.5754    1.0915
+2    1.1231    1.1500    0.0000    0.9835    1.1560    1.1627
+3    0.9255    0.9408    0.9835    0.0000    0.9437    0.8521
+4    0.5039    0.5754    1.1560    0.9437    0.0000    1.0879
+5    1.0856    1.0915    1.1627    0.8521    1.0879    0.0000
