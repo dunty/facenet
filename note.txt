@@ -13,6 +13,23 @@ https://blog.csdn.net/mighty13/article/details/78110676
 Tensorflow 多GPU下，指定使用某一块GPU, 多块, 禁用
 https://blog.csdn.net/noirblack/article/details/70792550
 
+查询域名对应ip
+https://www.ipaddress.com/
+
+github clone过慢时，可参考增加hosts    C:\Windows\System32\drivers\etc\hosts
+151.101.72.249 global-ssl.fastly.Net    #第一步中获取的ip
+
+#192.30.252.131 github.com
+#192.30.253.112    github.com
+#192.30.253.113    github.com
+
+应该是如下两条：
+151.101.185.194 github.global.ssl.fastly.net
+192.30.253.112 github.com
+
+
+
+
 结果需要分析一下，有些差别还是不太对：
 Images:
 0: D:/dty/pystudy/pic/1.jpg
@@ -30,3 +47,45 @@ Distance matrix
 3    0.9255    0.9408    0.9835    0.0000    0.9437    0.8521
 4    0.5039    0.5754    1.1560    0.9437    0.0000    1.0879
 5    1.0856    1.0915    1.1627    0.8521    1.0879    0.0000
+
+
+FaceNet pre-trained模型&amp;FaceNet源码使用方法和讲解
+来自 <https://blog.csdn.net/MrCharles/article/details/80360461>
+昨夜无雨 / facenet_face_recognition
+来自 <https://gitee.com/gungo/facenet_face_regonistant>
+facenet使用记录
+来自 <https://www.jianshu.com/p/415be6152a3b>
+史上最全的FaceNet源码使用方法和讲解（二）
+来自 <https://blog.csdn.net/u013044310/article/details/80481642>
+https://github.com/davidsandberg/facenet
+如何应用MTCNN和FaceNet模型实现人脸检测及识别
+来自 <https://cloud.tencent.com/developer/news/213743>
+深入浅出人脸识别技术
+来自 <http://www.taohui.pub/378.html>
+《21个项目玩转深度学习———基于TensorFlow的实践详解》配套代码
+来自 <https://github.com/hzy46/Deep-Learning-21-Examples>
+AI Insight
+何之源  关于专栏
+来自 <https://zhuanlan.zhihu.com/ai-insight>
+
+给深度学习入门者的Python快速教程 - 番外篇之Python-OpenCV
+来自 <https://blog.csdn.net/a119258/article/details/78225351>
+
+
+
+图像处理
+	Python+OpenCV图像处理（八）—— 图像直方图
+	来自 <https://www.cnblogs.com/FHC1994/p/9118351.html>
+	用OpenCV实现Photoshop算法(三): 曲线调整
+	来自 <https://blog.csdn.net/c80486/article/details/52499919>
+	OpenCV成长之路(3)：模仿PhotoShop中魔术棒工具
+	来自 <http://blog.jobbole.com/84211/>
+	Photoshop图像处理算法—色阶调整
+	来自 <https://blog.csdn.net/xingyanxiao/article/details/48034857>
+
+
+photoshop原理
+	五张图片告诉我们：怎样才能读懂直方图
+	来自 <http://academy.fengniao.com/533/5339606.html>
+	Photoshop曲线工具的使用原理详细解析
+	来自 <https://www.jb51.net/photoshop/532386.html>
